@@ -3,51 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gayantha Prabod's GitHub Profile</title>
+    <title>Gayantha Prabod's Profile</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f0f0f0;
-            padding: 20px;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
         }
-        .profile-header {
+        #main-header {
+            background-color: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        #main-header h1 {
             text-align: center;
-            margin-bottom: 20px;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
         }
-        .profile-header h1 {
-            font-size: 2.5em;
-            color: #333;
-            margin-bottom: 10px;
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background: #333;
         }
-        .profile-header p {
-            font-size: 1.2em;
-            color: #666;
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 20px;
         }
-        .contact-info {
-            margin-top: 20px;
+        nav a:hover {
+            background: #0779e4;
         }
-        .contact-info p {
-            font-size: 1.1em;
-            color: #444;
-            margin-bottom: 5px;
+        .content {
+            padding: 20px;
+            background: #fff;
+        }
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header class="profile-header">
+    <header id="main-header">
+        <div class="container">
             <h1>Gayantha Prabod</h1>
-            <p>Software Engineer | GitHub Enthusiast</p>
-        </header>
+        </div>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Gayantha Prabod, a passionate developer with interests in web development, data science, and open-source projects.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are a few projects I've worked on:</p>
+            <ul>
+                <li><a href="https://github.com/username/project1">Project 1</a></li>
+                <li><a href="https://github.com/username/project2">Project 2</a></li>
+                <li><a href="https://github.com/username/project3">Project 3</a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at: <a href="mailto:gayantha@example.com">gayantha@example.com</a></p>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>© 2024 Gayantha Prabod. All Rights Reserved.</p>
+    </footer>
+</body>
+    </html>        </header>
         
         <section class="contact-info">
             <h2>Contact Information</h2>
